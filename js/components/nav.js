@@ -64,33 +64,7 @@ export default (hostComponent) => {
           <!-- Unicode for a pencil, similar to an edit or form icon -->
           <span class="text">Button + Badges</span>
         </a>
-        <a data-nav href="/form" >
-          <span class="icon">&#x270F;</span>
-          <!-- Unicode for a pencil, similar to an edit or form icon -->
-          <span class="text">Form</span>
-        </a>
-        <a data-nav href="/maps" >
-          <span class="icon">&#x1F5FA;</span>
-          <!-- Unicode for a pencil, similar to an edit or form icon -->
-          <span class="text">Maps</span>
-        </a>
-
-        <a data-nav href="/users" >
-          <span class="icon">👥</span>
-          <span class="text">DB users</span>
-        </a>
-        <a data-nav href="/calendar" >
-          <span class="icon"> 📆 </span>
-          <span class="text"> Calendar</span>
-        </a>
-        <a data-nav href="/multiple-instances" >
-          <span class="icon">🧬</span>
-          <span class="text">Multiple instances</span>
-        </a>
-        <a data-nav href="/cookies" >
-          <span class="icon">🍪</span>
-          <span class="text">Cookie popup</span>
-        </a>`;
+     `;
 
     //add classes button secondary squarify to all nav links
     hostComponent.querySelectorAll('a').forEach((navLink) => {
